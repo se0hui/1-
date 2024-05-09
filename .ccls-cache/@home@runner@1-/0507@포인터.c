@@ -328,12 +328,12 @@
 // }
 
 //153p
-#include <stdio.h>
-int main(){
-  int a;
-  char *pt = "I love you";
-  for(a = 7; a < 10; a++){
-    printf("%c", *(pt+a));
-  }
-  return 0;
-}
+// #include <stdio.h>
+// int main(){
+//   int a;
+//   char *pt = "I love you";
+//   for(a = 7; a < 10; a++){
+//     printf("%c", *(pt+a));
+//   }
+//   return 0;
+// }
