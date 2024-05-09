@@ -281,6 +281,7 @@
 //   return 0;
 // }
 
+//151p
 // #include <stdio.h>
 // int main() {
 //   int a;
@@ -290,3 +291,49 @@
 //   }
 //   return 0;
 // }
+
+//151p
+// #include <stdio.h>
+// #include <string.h>
+// int strcmp(const char *s1, const char *s2);
+// int main(){
+//   int a;
+//   char *spring_term[6] = {"입춘", "우수", "경칩", "춘분", "청명", "곡우"};
+//   char tname[10];
+//   scanf("%s", tname);
+//   for (a = 0; a < 6; a++){
+//     if(strcmp(spring_term[a], tname)==0){
+//       printf("%s 봄절기 입니다", tname);
+//       break;
+//     }
+//   }
+//   return 0;
+// }
+// int strcmp(const char *s1, const char *s2){
+//   if(*s1 == *s2){
+//     return 0;
+//   }
+//   else
+//     return 1;
+// }
+
+//152p
+// #include <stdio.h>
+// int main(void){
+//   int a; char *animals[3] = {"dog", "cat", "lion"};
+//   for(a =0; a < 3; a++){
+//     printf("%d 번째 동물은 %s 입니다.\n", a+1, animals[a]);
+//   }
+//   return 0;
+// }
+
+//153p
+#include <stdio.h>
+int main(){
+  int a;
+  char *pt = "I love you";
+  for(a = 7; a < 10; a++){
+    printf("%c", *(pt+a));
+  }
+  return 0;
+}
